@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+  roda:
+    build: .
+    ports:
+      - 3000
+    volumes:
+      - /app/db
+
+# volumes:
+# - /app/db
